@@ -13,12 +13,8 @@ function replaceVowels(before) {
   }
   return after;
 };
-// Shawn doesn't know why this doesn't work but please keep it.
-// if (vowels.includes(before.charAt(i))) {
-  //   before.replace(before.charAt(i), "-");
-  // }
-  
-  // User Logic
+
+// User Logic
   $(document).ready(function() {
     $("#sentence").submit(function(event) {
       event.preventDefault();
